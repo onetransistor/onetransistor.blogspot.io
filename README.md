@@ -1,2 +1,2 @@
-# onetransistor.blogspot.io
+# onetransistor.github.io
 Website

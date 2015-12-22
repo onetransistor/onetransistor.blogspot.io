@@ -1,5 +1,5 @@
 body {
-background-color: #eeeeee;
+background-color: #cccccc;
 max-width: 1050px;
 font-family: Arial, sans, sans-serif;
 font-size: 15px;
@@ -32,6 +32,7 @@ background-color: #3172f4;
 }
 
 div.content {
+background-color: #eeeeee;
 padding:10px;
 }
 

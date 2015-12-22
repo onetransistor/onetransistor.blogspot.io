@@ -26,11 +26,16 @@ h1:hover {
     -webkit-transition: color 0.7s;
 }
 
+h2, h3, h4 {
+    color: #555555;
+}
+
 div.header {
     display:block;
     max-width: 1050px;
     background-color: #151515;
     padding:15px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 div.navbar {
@@ -49,6 +54,7 @@ div.footer {
     color:white;
     font-size: 13px;
     border-top: 4px solid #3172f4;
+    border-radius: 0px 0px 10px 10px;
 }
 
 div.footer a{

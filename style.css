@@ -1,83 +1,94 @@
 body {
-background-color: #cccccc;
-max-width: 1050px;
-font-family: Arial, sans, sans-serif;
-font-size: 15px;
-margin-left:auto;
-margin-right:auto;
+    background-color: #cccccc;
+    max-width: 1050px;
+    font-family: Arial, sans, sans-serif;
+    font-size: 15px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 a {
-text-decoration:none;
-color:#3172f4;
+    text-decoration:none;
+    color:#3172f4;
 }
 
 a:hover {
-text-decoration:underline;
+    text-decoration:underline;
 }
 
-h1 {
-font-family: "Bitstream Charter", "Century Schoolbook L", serif;
+h1, h2, h3, h4 {
+    font-family: "Bitstream Charter", "Century Schoolbook L", serif;
+}
+
+h1:hover {
+    color: #555555;
+    transition: color 0.7s;
+    -webkit-transition: color 0.7s;
 }
 
 div.header {
-display:block;
-max-width: 1050px;
-background-color: #151515;
-padding:15px;
+    display:block;
+    max-width: 1050px;
+    background-color: #151515;
+    padding:15px;
 }
 
 div.navbar {
-background-color: #3172f4;
+    background-color: #3172f4;
 }
 
 div.content {
-background-color: #eeeeee;
-padding:10px;
+    background-color: #eeeeee;
+    padding:10px;
 }
 
 div.footer {
-padding:10px;
-text-align:center;
-background-color:#151515;
-color:white;
-font-size: 13px;
-border-top: 4px solid #3172f4;
+    padding:10px;
+    text-align:center;
+    background-color:#151515;
+    color:white;
+    font-size: 13px;
+    border-top: 4px solid #3172f4;
 }
 
 div.footer a{
-color:white;
-text-decoration:none;
+    color:white;
+    text-decoration:none;
 }
 
 div.footer a:hover{
-text-decoration:underline;
+    text-decoration:underline;
 }
 
 ul.navmenu {
-list-style-type:none;
-margin:0;
-padding:0;
-overflow:hidden;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
 }
 
 li.menulink {
-float:left;
+    float:left;
+    font-family: "Bitstream Charter", "Century Schoolbook L", serif;
+    font-size: 14px;
+    font-weight:bold;
 }
 
 li.menulink a{
-display: inline-block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
 }
 
 li.menulink a:hover{
-background-color: #151515;
+    background-color: #151515;
+    transition: background-color 0.7s;
+    -webkit-transition: background-color 0.7s;
 }
 
 img.logo {
-height:54px;
-margin:0;
+    height:54px;
+    margin:0;
 }

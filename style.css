@@ -1,0 +1,61 @@
+body {
+background-color: #eeeeee;
+max-width: 1050px;
+font-family: Arial, sans, sans-serif;
+font-size: 15px;
+margin-left:auto;
+margin-right:auto;
+}
+
+div.header {
+display:block;
+max-width: 1050px;
+background-color: #151515;
+padding:15px;
+}
+
+div.navbar {
+background-color: #3172f4;
+}
+
+div.content {
+padding:10px;
+}
+
+ul.navmenu {
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+li.menulink {
+float:left;
+}
+
+li.menulink a{
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li.menulink a:hover{
+background-color: #151515;
+}
+
+img.logo {
+height:54px;
+}
+
+span.tagline {
+display:inline-block;
+color: white;
+font-weight:bold;
+font-family: "Century Schoolbook L", "Bookman Old Style", serif;
+font-size: 24px;
+height:54px;
+line-height:54px;
+margin-left:10px;
+}

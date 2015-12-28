@@ -113,6 +113,7 @@ li.menulink a:hover{
 }
 
 img.logo {
-    height:54px;
+    max-height:54px;
     margin:0;
+    max-width:100%;
 }

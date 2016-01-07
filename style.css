@@ -104,12 +104,12 @@ li.menulink a{
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
+    transition: background-color 0.7s;
+    -webkit-transition: background-color 0.7s;
 }
 
 li.menulink a:hover{
     background-color: #151515;
-    transition: background-color 0.7s;
-    -webkit-transition: background-color 0.7s;
 }
 
 img.logo {

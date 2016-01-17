@@ -28,10 +28,13 @@ h1, h2, h3, h4 {
     font-family: "Bitstream Charter", "Century Schoolbook L", serif;
 }
 
-h1:hover {
-    color: #555555;
+h1 {
     transition: color 0.7s;
     -webkit-transition: color 0.7s;
+}
+
+h1:hover {
+    color: #555555;
 }
 
 h2, h3, h4 {

@@ -7,7 +7,7 @@ $.getJSON(au, function(data) {
 
 
 function showAd(ad) {
-	var ac = '<a href="' + ad.url + '"><img src="' + ad.img + '" /><target="_blank" rel="nofollow" onclick="gtag_ev(\'TopBanner\')" /a>';
+	var ac = '<a href="' + ad.url + '" target="_blank" rel="nofollow" onclick="gtag_ev(\'TopBanner\')"><img src="' + ad.img + '" /></a>';
 	document.getElementById("top_banner").innerHTML = ac;
 	document.getElementById("top_banner").className = "onetransistor_main_top_banner";
 	

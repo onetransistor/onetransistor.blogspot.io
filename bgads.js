@@ -8,10 +8,12 @@ $.getJSON(au, function(data) {
 
 function showAd(ad) {
 	var ac = '<a href="' + ad.url + '" target="_blank" rel="nofollow" onclick="gtag_ev(\'TopBanner\')"><img src="' + ad.img + '" /></a>';
-	document.getElementById("top_banner").innerHTML = ac;
-	document.getElementById("top_banner").className = "onetransistor_main_top_banner";
-	document.getElementById("top_banner").setAttribute("data-placement", "bottom");
-	document.getElementById("top_banner").setAttribute("data-toggle", "tooltip");
-	document.getElementById("top_banner").setAttribute("data-original-title", "This is an affiliate link!");	
+	var ae = document.getElementById("top_banner");
+	if (ae == NULL) return;
+	ae.innerHTML = ac;
+	ae.className = "onetransistor_main_top_banner";
+	ae.setAttribute("data-placement", "bottom");
+	ae.setAttribute("data-toggle", "tooltip");
+	ae.setAttribute("data-original-title", "This is an affiliate link!");	
 }
 

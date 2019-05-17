@@ -2,6 +2,6 @@
 
 Or
 
-# software.onetransistor.eu
+# dev.onetransistor.eu
 
 Website
